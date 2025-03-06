@@ -40,6 +40,9 @@ body {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1;
     color: rgb(103, 137, 146);
@@ -49,7 +52,7 @@ body {
 
 .first {
   margin-left: 0.2em;
-  animation: appear 0.2s linear forwards;
+  animation: appear 0.5s linear backwards;
   position: absolute;
   background-color: white;
   top: -13px;
@@ -57,7 +60,7 @@ body {
 
 .second {
   margin-left: 0.2em;
-  animation: appear 0.2s linear 6s forwards;
+  animation: appear 0.5s linear 1s backwards;
   position: absolute;
   background-color: white;
   top: -13px;
@@ -65,7 +68,7 @@ body {
 
 .third {
   margin-left: 0.2em;
-  animation: appear 0.2s linear 12s forwards;
+  animation: appear 0.5s linear 2s backwards;
   position: absolute;
   background-color: white;
   top: -13px;
