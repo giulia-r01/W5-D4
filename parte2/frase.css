@@ -49,7 +49,7 @@ body {
 
 .first {
   margin-left: 0.2em;
-  animation: appear 5s linear forwards;
+  animation: appear 0.2s linear forwards;
   position: absolute;
   background-color: white;
   top: -13px;
@@ -57,7 +57,7 @@ body {
 
 .second {
   margin-left: 0.2em;
-  animation: appear 5s linear 6s forwards;
+  animation: appear 0.2s linear 6s forwards;
   position: absolute;
   background-color: white;
   top: -13px;
@@ -65,7 +65,7 @@ body {
 
 .third {
   margin-left: 0.2em;
-  animation: appear 5s linear 12s forwards;
+  animation: appear 0.2s linear 12s forwards;
   position: absolute;
   background-color: white;
   top: -13px;
