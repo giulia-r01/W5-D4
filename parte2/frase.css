@@ -7,4 +7,68 @@
 6 animare le altre 2 parole
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
+body {
+  margin: 2em;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testoAlternato p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 1.6em;
+  color: rgb(38, 37, 37);
+}
+
+.parole {
+  position: relative;
+  width: 400px;
+}
+.parole i {
+  opacity: 0;
+  color: rgb(103, 137, 146);
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: rgb(103, 137, 146);
+    z-index: 2;
+  }
+}
+
+.first {
+  margin-left: 0.2em;
+  animation: appear 5s linear forwards;
+  position: absolute;
+  background-color: white;
+  top: -13px;
+}
+
+.second {
+  margin-left: 0.2em;
+  animation: appear 5s linear 6s forwards;
+  position: absolute;
+  background-color: white;
+  top: -13px;
+}
+
+.third {
+  margin-left: 0.2em;
+  animation: appear 5s linear 12s forwards;
+  position: absolute;
+  background-color: white;
+  top: -13px;
+  padding-right: 120px;
+  padding-bottom: 10px;
+}
