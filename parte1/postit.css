@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+body {
+  font-family: "Caveat";
+  background-color: #0d0c0ccf;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.green {
+  width: 250px;
+  background: linear-gradient(177deg, #c5f5c8, #516e53);
+  margin: 1.5em;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 6px 9px 12px #000000;
+  transform: rotate(7deg);
+}
+
+.green:hover {
+  transform: rotate(0) scale(1.2);
+}
+
+.yellow {
+  width: 250px;
+  background: linear-gradient(177deg, #f9fac8, #7c7c57b8);
+  margin: 1.5em;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 6px 9px 12px #000000;
+  transform: rotate(-7deg);
+}
+
+.yellow:hover {
+  transform: rotate(0) scale(1.2);
+}
+
+.purple {
+  width: 250px;
+  background: linear-gradient(177deg, #c5c5f0, #adaddd73);
+  margin: 1.5em;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 6px 9px 12px #000000;
+  transform: rotate(-7deg);
+}
+
+.purple:hover {
+  transform: rotate(0) scale(1.2);
+}
+
+h3 {
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.6em;
+}
